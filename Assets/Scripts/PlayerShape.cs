@@ -11,7 +11,6 @@ public class PlayerShape : MonoBehaviour {
     private float speed = 4f; // 几何体移动速度
     private int direction; // 方向
 
-    // 精灵组件
 
 	// Use this for initialization
 	void Start () {
