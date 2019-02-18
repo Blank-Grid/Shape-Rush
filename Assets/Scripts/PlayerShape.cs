@@ -13,19 +13,21 @@ public class PlayerShape : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+    public  void Start ()
+    {
         // 位置初始化
         currentPos = "left";
         currentPosIndex = 0;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public void Update ()
+    {
         moving();
 	}
 
     // 玩家移动几何体的方法
-    private void moving()
+    public void moving()
     {
         if (Input.GetKeyDown(KeyCode.RightArrow))
             direction = 1;
