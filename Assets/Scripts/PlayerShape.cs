@@ -8,7 +8,7 @@ public class PlayerShape : MonoBehaviour {
     private string[] pos = { "left", "middle", "right" }; // 三个位置
     private string currentPos; // 几何体当前位置
     private int currentPosIndex; // 几何体当前位置抽象数字
-    private float speed = 4f; // 几何体移动速度
+    public float speed = 4f; // 几何体移动速度
     private int direction; // 方向
 
 
