@@ -728,7 +728,6 @@ GameObject:
   - component: {fileID: 1517078204}
   - component: {fileID: 1517078207}
   - component: {fileID: 1517078206}
-  - component: {fileID: 1517078205}
   - component: {fileID: 1517078208}
   m_Layer: 5
   m_Name: ChoicePoint
@@ -755,17 +754,6 @@ RectTransform:
   m_AnchoredPosition: {x: -210, y: 69.5}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1517078205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1517078203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd885a64ea758764d9b83c754babce39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1517078206
 MonoBehaviour:
   m_ObjectHideFlags: 0
