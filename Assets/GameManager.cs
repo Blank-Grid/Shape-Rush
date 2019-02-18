@@ -16,8 +16,7 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     //游戏开始
     void Start() {
-        PlayerShape playerShape = new PlayerShape();
-        playerShape.Start();
+
     }
 
     // Update is called once per frame

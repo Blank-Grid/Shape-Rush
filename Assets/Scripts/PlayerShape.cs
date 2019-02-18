@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerShape : MonoBehaviour {
+
     // 私有属性
     private float[] realPos = { -1.1f, 0, 1.1f }; // 三个位置的x坐标
     private string[] pos = { "left", "middle", "right" }; // 三个位置
-    private string currentPos; // 几何体当前位置(left,middle,right)
-    private int currentPosIndex; // 几何体当前位置抽象数字(left=0,middle=1,right=2)
-    private float speed = 4f; // 几何体移动速度
-    private int direction; // 方向(left=-1,nothing=0,right=1)
+
+    private string currentPos; // 几何体当前位置
+    private int currentPosIndex; // 几何体当前位置抽象数字
+    public float speed = 4f; // 几何体移动速度
+    private int direction; // 方向
 
 
 	// Use this for initialization
-    public  void Start ()
+    public void Start ()
     {
         // 位置初始化
-        currentPos = "left";
-        currentPosIndex = 0;
+        currentPos = "middle";
+        currentPosIndex = 1;
 	}
 	
 	// Update is called once per frame
