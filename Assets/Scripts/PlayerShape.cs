@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerShape : MonoBehaviour {
+
     // 私有属性
     private float[] realPos = { -1.1f, 0, 1.1f }; // 三个位置的x坐标
     private string[] pos = { "left", "middle", "right" }; // 三个位置
