@@ -12,8 +12,18 @@ public class GameManager : MonoBehaviour {
     private int life = 1;  //玩家初始生命值
     public Text scoreText;  //分数显示
     public Text lifeText;  //生命值显示
-    
+
     // Use this for initialization
+    //游戏分数
+    void Getscore(float score)
+    {
+        while (true)
+        { 
+            score = score + Time.time;
+            scoreText.text = score.ToString();
+        }
+        
+    }
     //游戏开始
     void Start() {
 
@@ -29,6 +39,7 @@ public class GameManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene(0);
+            isGameOver = true;
         }
         //按空格键暂停
         if (Input.GetKeyDown(KeyCode.Space))
