@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour {
     private bool isGameOver = false;  //游戏状态
     private int score = 0;  //玩家分数
     private int life = 1;  //玩家初始生命值
-    public Text scoreText;  //分数显示
+    public Text scoreText;  //分数
     public Text lifeText;  //生命值显示
 
     // Use this for initialization
